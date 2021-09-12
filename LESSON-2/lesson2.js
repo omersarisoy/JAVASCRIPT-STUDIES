@@ -93,3 +93,58 @@ console.log(num1,num2);
 
 var ise FUNCTION SCOPE dur. Yani anaçatı veya fonksiyon da kullanabiliriz. */
 
+// function BracketMatcher(str) { 
+//     var lP = 0;
+//     var rP = 0;
+//     for(var i=0;i<str.length;i++){
+//       if(str[i] === '(') lP++;
+//       if(str[i] === ')') rP++;
+//       if(rP > lP) return 0;
+//     }
+//     if(rP === lP) return 1;
+//     return 0;
+//   }
+ 
+
+// function SearchingChallenge(str) { 
+    
+//     var left = 0;
+//     var right = 0;
+  
+//     for(var i=0; i<str.length; i++){
+//         if(str[i] === "(") left ++;
+  
+//         if(str[i] === ")") right ++;
+
+//         if(right > left) return 0; 
+//     }
+
+//     if(left === right) return 1;
+
+//      return 0;
+        
+//     }
+//     console.log( SearchingChallenge("(c(oder)) b(yte)"));
+
+    // function QuestionsMarks(str) {
+    //     let num1 = 0,
+    //     foundNum = false,
+    //     question = 0,
+    //     pair = 0
+    //     for(let i=0; i<str.length;i++){
+    //         if(foundNum && str[i] == '?'){
+    //             question++
+    //             continue
+    //         }
+    //         if(str[i].match(/[0-9]/g)){
+    //             foundNum = true
+    //             if(num1 != 0 && (num1 + Number(str[i]) == 10 && question != 3)) return 'false'
+    //             if(num1 + Number(str[i]) == 10 && question == 3) pair++
+    //             num1 = Number(str[i])
+    //             question = 0
+    //         }
+    //     }
+    //   return (pair == 0) ? "false" : "true"
+    // }
+    
+    // console.log(QuestionsMarks("acc?7??sss?3rr1??????5")); 
